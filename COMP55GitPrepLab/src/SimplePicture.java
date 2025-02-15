@@ -13,10 +13,10 @@ public class SimplePicture extends GraphicsProgram {
 	public void run() {
 		GImage robot = new GImage("robot.jpg", 200, 100);
 		add(robot);
-		GLabel label = new GLabel("How I feel when using github", 200, 300);
+		GLabel label = new GLabel("How I feel when using github", 200, 100);
 		add(label);
 	}
-	
+	//added name and email back to pref.
 	public static void main(String[] args) {
 		new SimplePicture().start();
 	}
